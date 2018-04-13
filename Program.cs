@@ -25,7 +25,7 @@ namespace Lab1Part2DateChallenge
             Console.WriteLine("Enter First Date:(MM/DD/YYYY)");
             DateTime Date1 = Convert.ToDateTime(Console.ReadLine());
         
-            Console.WriteLine("Enter Second Date:(MM-DD-YYYY)");
+            Console.WriteLine("Enter Second Date:(MM/DD/YYYY)");
             DateTime Date2 = Convert.ToDateTime(Console.ReadLine());
           
             //Calculates the differences between the two dates
